@@ -1,5 +1,5 @@
 TiAndroidMenuItems
--------------------
+==================
 This takes the heavy lifting out of manually creating menu items in a Titanium Mobile project for Android.
 
 Looking at taking advantage of the action bar and earlier OS support. It will allow for customisation and give a way to manage changes in the TiSDK.
