@@ -1,8 +1,12 @@
+TiAndroidMenuItems
+-------------------
 This takes the heavy lifting out of manually creating menu items in a Titanium Mobile project for Android.
 
 Looking at taking advantage of the action bar and earlier OS support. It will allow for customisation and give a way to manage changes in the TiSDK.
 
 This is an early experimental library built as a CommonJS library that can be dropped into any project.
+
+It will create menu items you request, by default using the built in native icons that the Android OS provide, ideally these can be customised to your own.
 
 Requirements
 ------------
