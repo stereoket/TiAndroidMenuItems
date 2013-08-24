@@ -19,7 +19,7 @@ Example Code
 
 Here is an example in Alloy for the index.js - you can use a basic default Alloy Project and replace this code into the main index.js to test out the functionality of the module.
 
-![Image](../blob/master/app/assets/images/device-2013-08-24-190142.png?raw=true)
+![Screenshot1](../blob/master/app/assets/images/device-2013-08-24-190142.png?raw=true)
 
 ```
 function doOpen(e) {
