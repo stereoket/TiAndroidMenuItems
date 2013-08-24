@@ -24,7 +24,7 @@ Example Code
 Here is an example in Alloy for the index.js - you can use a basic default Alloy Project and replace this code into the main index.js to test out the functionality of the module.
 
 Screenshot of the example app - this is located within the repo under the app subfolder
-<img src="../master/app/assets/images/device-2013-08-24-190142.png?raw=true" alt="Screenshot" style="width: 300px;"/>
+<img src="../master/app/assets/images/device-2013-08-24-190142.png?raw=true" alt="Screenshot" style="width: 180px;"/>
 
 
 ```
