@@ -39,10 +39,10 @@ function getActivity(win, tabgroup) {
 }
 
 
-function disaplyHomeAsUp(closeWin) {
+function displayHomeAsUp(closeWin) {
 	if (activity !== undefined && actionBar) {
 		actionBar.displayHomeAsUp = true;
-		actionBar.onHomeIconItemSelected = function () {
+		actionBar.onHomeIconItemSelected = function (e) {
 			closeWin.close();
 		};
 	}
@@ -155,4 +155,5 @@ function addItemToMenu(menu, itemID) {
 }
 
 exports.getActivity = getActivity;
+exports.displayHomeAsUp = displayHomeAsUp;
 exports.onCreateOptionsMenu = onCreateOptionsMenu;
