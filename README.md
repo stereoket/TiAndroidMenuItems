@@ -22,8 +22,6 @@ Here is an example in Alloy for the index.js - you can use a basic default Alloy
 ```
 function doOpen(e) {
 	var menuItems = require('menuItems');
-	Ti.API.info("Open Index of SFL app");
-	Ti.API.info("The activity: " + activity);
 
 	var activity = menuItems.getActivity($.index, false);
 	var items = [];
@@ -62,5 +60,3 @@ function doOpen(e) {
 $.index.addEventListener('open', doOpen);
 $.index.open();
 ```
-
-An 

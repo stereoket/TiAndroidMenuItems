@@ -69,7 +69,7 @@ function onCreateOptionsMenu(items) {
 		var menu = e.menu;
 		menu.clear();
 		for (i = 0; i < l; i++) {
-			Ti.API.info("onPrepareOptionsMenu()");
+			Ti.API.info("onCreateOptionsMenu()");
 			Ti.API.info(JSON.stringify(menuItems[i], null, 2));
 			if (menuItems[i].showItem !== undefined && menuItems[i].showItem) {
 
@@ -85,7 +85,7 @@ function alertMessage(e){
 }
 
 function addItemToMenu(menu, itemID) {
-	Ti.API.info("add itme to menu");
+	Ti.API.warn("adding item to menu");
 
 	switch (itemID) {
 	case 'logout':
